@@ -1,0 +1,51 @@
+
+underlinedfoot{
+  text-decoration: none;
+}
+a {
+  text-decoration: none !important;
+}
+
+.footerpara img{
+  width: 30%;
+  height: 30%;
+  padding-top: 50px;
+
+}
+
+.footerpara2{
+  font-family: 'Source Sans Pro';
+  font-size: 9.6px;
+  color: #000000;
+}
+
+.testfooter{
+  padding-top: 20px;
+  padding-bottom: 50px;
+
+}
+
+.text-uppercase{
+  font-family: 'Source Sans Pro';
+  color: #228EE1;
+}
+
+.text-reset{
+  font-family: 'Source Sans Pro';
+  font-size: 18.0px;
+  color: #000000;
+}
+
+.footl{
+    color: #228EE1;
+    padding-top: 10px;
+}
+
+#community{
+  padding-top: 50px;
+}
+
+#comm{
+   letter-spacing: 12px;
+   font-size: 25.0px;
+}

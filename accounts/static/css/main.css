@@ -1,0 +1,297 @@
+
+  /* let the header start here */
+#indexheader{
+
+  height: 750px;
+  background-image: url('/static/images/header1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.indexheaderfirstcell{
+  padding-top: 230px;
+}
+
+.indexh1{
+  font-size: 60px;
+  font-family: 'Source Sans Pro';
+
+  color: white;
+
+}
+
+.indexheader-span-text{
+  font-weight: bold;
+  color: #07C6FB;
+}
+
+.btn.btn-primary{
+  background-color: white;
+  color: black;
+}
+
+  /* let the header ends here */
+
+    /* let the indexfirst jumbo start here */
+
+#indexfirstjumbo{
+      background-color: white;
+    }
+
+.custom-container {
+      max-width: none; /* Remove the max-width constraint */
+      padding-left: 100px; /* Adjust padding as needed */
+      padding-right: 100px; /* Adjust padding as needed */
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+
+.indexfirstcell {
+
+}
+
+.indexh1firstcell {
+  font-family: 'Source Sans Pro';
+  color: black;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.indexh4firstcell {
+    font-family: 'Source Sans Pro';
+color: #0192BA;
+font-weight: normal;
+letter-spacing: 1px;
+
+
+}
+
+.indexfirst-icon-image-paragraph-container {
+      display: flex; /* Use flexbox to align items on the same line */
+      align-items: center; /* Vertically center the items */
+    }
+
+.indexfirst-icon-image-paragraph-container p{
+    margin: 0; /* Remove any default margins from the paragraph */
+    }
+
+
+.indexfirst-icon-para{
+    margin-right: 30px;
+    width: 6%;
+    height: 6%;
+    }
+
+.indexfirst-icon-para1{
+    margin-right: 30px;
+    width: 6%;
+    height: 6%;
+    }
+
+
+#indexfirst-cell-button {
+
+}
+
+.indexfirst-cell-img {
+  text-align: center; /* Center the images horizontally */
+  position: relative; /* Establish a positioning context for the container */
+}
+
+.indexfirst-column2-image-container {
+  position: relative; /* Establish a positioning context */
+}
+
+.first-image-laptop {
+  position: absolute; /* Position both images absolutely within the container */
+  top: 0; /* Align both images to the top */
+  left: 0; /* Align both images to the left */
+  width: 100%; /* Adjust the width as needed */
+  max-width: 100%; /* Ensure both images fit within the container */
+   z-index: 1; /* Set both images to the same z-index */
+}
+
+.second-image-ellipse {
+  position: absolute; /* Position both images absolutely within the container */
+  top: 0; /* Align both images to the top */
+  left: 0; /* Align both images to the left */
+  width: 70%; /* Adjust the width as needed */
+
+
+}
+.second-image-ellipse {
+  top: 60px; /* Adjust the top position as needed */
+  left: 100px;
+  z-index: 0; /* Set the second image behind the first image with a lower z-index */
+}
+
+  /* let the index first jumbo ends here */
+
+
+/* let the index second  jumbo start here */
+
+#index-second-jumbo {
+  background: linear-gradient(to bottom, #07C6FB, #1D819D);
+
+  }
+
+
+  .custom-container-second-jumbo {
+        max-width: none; /* Remove the max-width constraint */
+        padding-left: 100px; /* Adjust padding as needed */
+        padding-right: 100px; /* Adjust padding as needed */
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+      }
+
+      .custom-container-second-jumbo img{
+        width: 100%;
+          height: 100%;
+
+          }
+
+
+  .index-second-header-image-container {
+            display: flex; /* Use flexbox to align items in a row */
+            align-items: center; /* Vertically center the items */
+          }
+
+  .index-second-header-text {
+            margin-right: 20px; /* Add margin between the header and image */
+             flex: 2; /* Adjust the flex value to control the space for the header */
+          }
+
+  .index-second-header-image-container img {
+            max-width: 100%; /* Ensure the image fits within the container */
+             flex: 1; /* Adjust the flex value to control the space for the header */
+          }
+
+  .index-second-footer-image-container {
+            display: flex; /* Use flexbox to align items in a row */
+            align-items: center; /* Vertically center the items */
+          }
+
+.index-second-footer-text {
+            margin-right: 30px; /* Add margin between the header and image */
+             flex: 2; /* Adjust the flex value to control the space for the header */
+
+             font-family: 'Source Sans Pro';
+             color: black;
+
+             font-size: 25px;
+          }
+
+.index-second-footer-image-container img {
+           /*   Ensure the image fits within the container */
+
+             /* Adjust the flex value to control the space for the header */
+
+             max-width: 2%;
+             margin-left: 15px;
+
+             /* Adjust the flex value to control the space for the header */
+           }
+
+
+
+  /* let the index second jumbo ends here */
+
+
+
+  /* let the index third  jumbo start here */
+
+  #index-third-jumbo {
+
+    height: 800px;
+    background-image: url('/static/images/Rectangle 15.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    }
+
+
+  .custom-container-third-jumbo {
+          max-width: none; /* Remove the max-width constraint */
+          padding-left: 100px; /* Adjust padding as needed */
+          padding-right: 100px; /* Adjust padding as needed */
+          padding-top: 100px;
+          padding-bottom: 100px;
+
+        }
+
+  #third-jumbo-second-column {
+    padding-top: 50px;
+  }
+
+
+.index-third-trade-img {
+  width: 100%;
+  height: 100%;
+}
+
+.index-third-h1{
+  font-size: 60px;
+  font-family: 'Source Sans Pro';
+
+  color: white;
+
+}
+
+.index-third-header-span-text{
+  font-weight: bold;
+  color: #07C6FB;
+  font-family: 'Source Sans Pro';
+}
+
+.index-third-header-para-text {
+  color: white;
+  font-family: 'Source Sans Pro';
+}
+
+.index-third-footer-image-container {
+          display: flex; /* Use flexbox to align items in a row */
+          align-items: center; /* Vertically center the items */
+        }
+
+.index-third-footer-text {
+          margin-right: 30px; /* Add margin between the header and image */
+           flex: 2; /* Adjust the flex value to control the space for the header */
+
+           font-family: 'Source Sans Pro';
+           color: #07C6FB;
+
+           font-size: 20px;
+        }
+
+.index-third-footer-image-container img {
+         /*   Ensure the image fits within the container */
+
+           /* Adjust the flex value to control the space for the header */
+
+           max-width: 2%;
+           margin-left: 15px;
+
+
+           /* Adjust the flex value to control the space for the header */
+         }
+
+
+.linuxpara {
+  text-align: center;
+  color: white;
+  font-family: 'Source Sans Pro';
+
+  font-size: 12px;
+
+}
+
+
+
+
+
+
+    /* let the index third jumbo ends here */

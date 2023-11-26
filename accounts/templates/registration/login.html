@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+<div class="jumbotron" >
+
+        <div class="custom-container-login">
+
+                  <div class="row" >
+
+
+                          <div class="col-md-6">
+                              <img src="{% static 'images/login.png' %}" alt="Your Image" id="imglogin">
+                          </div>
+
+                          <div class="col-md-6">
+                                          <div class="d-grid gap-2 col-6 mx-auto">
+                                                <h1  class="centric2">Log in </h1>
+                                          </div>
+
+
+                                          <div class="d-grid gap-2 col-6 mx-auto">
+
+                                            <form>
+                                              <div class="form-group">
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="barry@gmail.com">
+                                              </div>
+                                              <br>
+                                              <div class="form-group">
+                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                              </div>
+                                              <br>
+                                              <!-- 2 column grid layout for inline styling -->
+                                              <div class="row mb-4">
+                                                <div class="col d-flex justify-content-center">
+                                                  <!-- Checkbox -->
+                                                  <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                                                    <label class="form-check-label" for="form2Example31"> Remember me </label>
+                                                  </div>
+                                                </div>
+
+                                                <div class="col">
+                                                  <!-- Simple link -->
+                                                  <a href="#!">Forgot password?</a>
+                                                </div>
+                                              </div>
+
+                                            </form>
+
+                                          </div>
+
+
+                                          <div class="d-grid gap-2 col-6 mx-auto">
+                                            <a href="" <button type="button" class="btn btn-dark" id="signsize2login">Log in</button> </a>
+                                          </div>
+                            <br>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                              <p class="centric">OR</p>
+
+                            </div>
+
+
+
+
+                                          <div class="d-grid gap-2 col-5 mx-auto">
+                                                          <a href="" <button type="button" class="btn btn-dark" id="signsize3">
+
+                                                                              <div class="indexfirst-icon-image-paragraph-container">
+                                                                                    <img src="{% static 'images/apple.png' %}" alt="No image found" class="indexfirst-icon-para1"><p><span >Continue with Apple</span></p>
+                                                                              </div>
+                                                                      </button>
+                                                          </a>
+
+                                          </div>
+
+
+                            <br>
+                                          <div class="d-grid gap-2 col-5 mx-auto">
+                                                          <a href="" <button type="button" class="btn btn-dark" id="signsize3">
+
+                                                                              <div class="indexfirst-icon-image-paragraph-container">
+                                                                                    <img src="{% static 'images/icons_google.png' %}" alt="No image found" class="indexfirst-icon-para1"><p><span >Continue with Google</span></p>
+                                                                              </div>
+                                                                      </button>
+                                                          </a>
+
+                                          </div>
+
+                            <br>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                          <p class="centric">Don’t have an account?<a href="{% url 'register' %}" id="ankcol"> Register</a></p>
+                            </div>
+
+
+                          </div>
+
+
+
+
+                  </div>
+
+
+
+       </div>
+
+</div>
+
+
+{% endblock %}
+
+
+
+
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">barry@gmail.com</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <!-- 2 column grid layout for inline styling -->
+  <div class="row mb-4">
+    <div class="col d-flex justify-content-center">
+      <!-- Checkbox -->
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+        <label class="form-check-label" for="form2Example31"> Remember me </label>
+      </div>
+    </div>
+
+    <div class="col">
+      <!-- Simple link -->
+      <a href="#!">Forgot password?</a>
+    </div>
+  </div>
+
+  <!-- Submit button -->
+  <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+</form>

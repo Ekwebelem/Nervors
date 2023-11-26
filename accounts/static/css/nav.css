@@ -1,0 +1,14 @@
+.navbar {
+  background-color: #111010 !important;
+  color: #07C6FB;
+}
+
+.navbar-nav .nav-link{
+
+   color: #07C6FB !important;
+}
+
+.container img{
+  width: 40px;
+  height: 40px;
+}

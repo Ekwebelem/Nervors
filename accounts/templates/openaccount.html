@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+
+<div class="jumbotron" >
+
+        <div class="custom-container-openaccount">
+
+                  <div class="row" >
+                          <div class="col-md-6">
+                                          <div class="d-grid gap-2 col-6 mx-auto">
+                                                <h1  class="centric2">Welcome <span class="indexheader-span-text"><br>This is Nervors!</span></h1>
+                                          </div>
+
+
+                                          <div class="d-grid gap-2 col-6 mx-auto">
+                                            <a href="" <button type="button" class="btn btn-outline-secondary" id="signsize">Sign up with email or phone number</button> </a>
+                                          </div>
+
+                            <br>
+                                          <div class="d-grid gap-2 col-6 mx-auto">
+                                            <a href="" <button type="button" class="btn btn-dark" id="signsize2">Next</button> </a>
+                                          </div>
+                            <br>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                              <p class="centric">OR</p>
+
+                            </div>
+
+
+
+
+                                          <div class="d-grid gap-2 col-5 mx-auto">
+                                                          <a href="" <button type="button" class="btn btn-dark" id="signsize3">
+
+                                                                              <div class="indexfirst-icon-image-paragraph-container">
+                                                                                    <img src="{% static 'images/apple.png' %}" alt="No image found" class="indexfirst-icon-para1"><p><span >Continue with Apple</span></p>
+                                                                              </div>
+                                                                      </button>
+                                                          </a>
+
+                                          </div>
+
+
+                            <br>
+                                          <div class="d-grid gap-2 col-5 mx-auto">
+                                                          <a href="" <button type="button" class="btn btn-dark" id="signsize3">
+
+                                                                              <div class="indexfirst-icon-image-paragraph-container">
+                                                                                    <img src="{% static 'images/icons_google.png' %}" alt="No image found" class="indexfirst-icon-para1"><p><span >Continue with Google</span></p>
+                                                                              </div>
+                                                                      </button>
+                                                          </a>
+
+                                          </div>
+
+                            <br>
+                            <div class="d-grid gap-2 col-6 mx-auto">
+                                          <p class="centric">Already registered? <a href="{% url 'login' %}" id="ankcol">Log in</a></p>
+
+                                          <p class="centric">Looking to create an entity account? <a href="{% url 'register' %}" id="ankcol">Sign up</a></p>
+                            </div>
+
+
+                          </div>
+
+                          <div class="col-md-6">
+                              <img src="{% static 'images/Happy Customer.png' %}" alt="Your Image" id="imgjoz">
+                          </div>
+
+
+                  </div>
+
+
+
+       </div>
+
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,64 @@
+
+.custom-container-openaccount {
+        max-width: none; /* Remove the max-width constraint */
+        padding-left: 100px; /* Adjust padding as needed */
+        padding-right: 100px; /* Adjust padding as needed */
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+      }
+
+#signsize {
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+
+}
+
+
+#signsize2 {
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  background-color: black;
+  color: white;
+
+}
+
+#signsize3 {
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  text-align: center;
+
+}
+
+.button-openaccount {
+  width: 150px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+  padding: 10px 20px; /* Adjust the padding to control the internal spacing */
+}
+
+.centric {
+
+  font-family: 'Source Sans Pro';
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.centric2 {
+
+  font-family: 'Source Sans Pro';
+  text-align: center;
+
+}
+
+#ankcol {
+  color: #05B0E5;
+}
+
+
+#imgjoz {
+  width: 80%;
+  height: 100%;
+}
